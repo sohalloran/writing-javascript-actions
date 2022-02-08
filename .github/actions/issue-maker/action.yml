@@ -11,6 +11,7 @@ inputs:
     required: true
   repo-token:
     description: "Token with permissions to do repo things"
+    default: "demo"
 
 runs:
   using: "node12"
