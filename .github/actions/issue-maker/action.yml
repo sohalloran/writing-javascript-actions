@@ -2,7 +2,6 @@ name: "I have issues"
 
 description: "consume the output of the previous action and create a new issue in the repository"
 
-
 inputs:
   joke:
     description: "This will become the body of the created issue"
@@ -14,5 +13,5 @@ inputs:
     description: "Token with permissions to do repo things"
 
 runs:
-  using: "node12" 
+  using: "node12"
   main: "index.js"
